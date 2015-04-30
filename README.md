@@ -1,6 +1,6 @@
 # BMP085-mqtt
 
-The objective here was simple:  
+Requirements:  
 
 1. Configure RaspberryPi with a BMP085 attached so that it publishes
 - tempoerature and
