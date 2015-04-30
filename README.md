@@ -16,9 +16,17 @@ Device Tree: /boot/config.txt has been updated on cctvpi to address introduction
 Test Plan:
 
 On any system with mosquitto client installed, subscribe to topic rrd/srt# and rrd/srp#
+with 
+$ mosquitto_sub -h 84.92.51.16 -t "rrd/srt/#"
+and
+$ mosquitto_sub -h 84.92.51.16 -t "rrd/srp/#"
 
 Expected result:
-
+time:temperature
+time:pressure
+eg:
+1430417059:15.3
+1430417059:1003.79
 
 
 
