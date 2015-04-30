@@ -3,8 +3,8 @@
 Requirements:  
 
 1. Configure RaspberryPi with a BMP085 attached so that it publishes
-* tempoerature and
-* pressure values 
+---tempoerature and
+---pressure values 
 
 to mqtt (mosquitto running on a separate RaspberryPi)
 
