@@ -11,6 +11,8 @@ Requirements:
 
 Cron - Configure crontab using crontab -e - See txt file for the command line
 
+Device Tree: /boot/config.txt has been updated on cctvpi to address introduction of the Device Tree
+
 Test Plan:
 
 On any system with mosquitto client installed, subscribe to topic rrd/sr/
