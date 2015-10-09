@@ -17,9 +17,9 @@ Test Plan:
 
 On any system with mosquitto client installed, subscribe to topic rrd/srt# and rrd/srp#
 with 
-#  $ mosquitto_sub -h <IP Address> -t "rrd/srt/#"
+# $ mosquitto_sub -h <IP Address> -t "rrd/srt/#"
 and
-#  $ mosquitto_sub -h <IP Address> -t "rrd/srp/#"
+# $ mosquitto_sub -h <IP Address> -t "rrd/srp/#"
 
 Expected result:
 time:temperature
